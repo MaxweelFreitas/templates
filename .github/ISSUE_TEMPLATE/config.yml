@@ -2,7 +2,7 @@ blank_issues_enabled: false  # Desativa a criação de issues em branco
 
 contact_links:
   - name: ❓ Perguntas e Suporte
-    url: https://github.com/usuario/repositorio/discussions
+    url: question.md
     about: Use o fórum de discussões para dúvidas gerais e suporte. (Need to configure)
 
 issue_templates:
