@@ -1,7 +1,23 @@
-## Descrição da pergunta
+---
+name: ❓ Question
+about: Tire dúvidas ou peça esclarecimentos sobre o projeto.
+title: "[QUESTION] "
+labels: question
+assignees: ''
+---
 
-Coloque aqui a sua dúvida ou pergunta.
+### ❓ **Question**
 
-## Possíveis soluções
+#### 📄 **Título**
+Descreva a dúvida ou questão de forma clara e objetiva.
 
-Se você já tentou alguma solução, descreva aqui.
+#### 📝 **Descrição Detalhada**
+Explique a dúvida ou questão que você tem sobre o projeto.
+
+#### 📷 **Evidências**
+Adicione capturas de tela, vídeos ou logs relevantes para ajudar a entender a questão.
+
+#### ⚠️ **Urgência**
+- [ ] Baixa  
+- [ ] Média  
+- [ ] Alta  

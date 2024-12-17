@@ -4,7 +4,7 @@ contact_links:
   - name: ❓ Perguntas e Suporte
     url: question.md
     about: Use o fórum de discussões para dúvidas gerais e suporte. (Need to configure)
-    labels: [Question]
+    labels: [question]
 
 issue_templates:
   - name: 🐛 Bug Report
