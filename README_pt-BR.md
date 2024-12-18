@@ -92,7 +92,7 @@ Define regras e diretrizes para manter um ambiente respeitoso e colaborativo.
 
 ### 🔄 **Mantendo os Templates Atualizados**
 
-Para garantir que seus repositórios estejam sempre com os templates mais recentes, basta executar o script `update_templates.dart` periodicamente. Ele atualizará a pasta `.github` com os templates mais recentes do repositório.
+Para garantir que seus repositórios estejam sempre com os templates mais recentes, basta executar o script `update_templates.dart` periodicamente com o comando `dart run .\update_templates.dart`. Ele atualizará a pasta `.github` com os templates mais recentes do repositório.
 
 ---
 

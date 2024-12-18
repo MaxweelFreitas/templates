@@ -82,7 +82,7 @@ This template helps streamline the code review process.
 
 ### 🔄 **Keeping Templates Updated**
 
-To ensure that your repositories are always up-to-date with the latest templates, simply run the `update_templates.dart` script periodically. It will update the `.github` folder with the latest templates from the repository.
+To ensure that your repositories are always up-to-date with the latest templates, simply run the `update_templates.dart` script periodically with the command `dart run .\update_templates.dart`. It will update the `.github` folder with the latest templates from the repository.
 
 ---
 

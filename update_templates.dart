@@ -17,9 +17,8 @@ void main() async {
     await _removeExistingFolder(githubFolderPath);
 
     // Cria a pasta .github
-    print('📂 Criando pasta .github...');
     await Directory(githubFolderPath).create(recursive: true);
-    print('✅ Pasta .github criada com sucesso!');
+    print('📂 Pastas criadas com sucesso!');
 
     // Baixa os arquivos de .github e ISSUE_TEMPLATE
     await _downloadFolderContents(owner, repoName, githubFolderPath, '.github');
@@ -27,15 +26,15 @@ void main() async {
   } catch (e) {
     print('⚠️ Ocorreu um erro: $e');
   }
+  print('✅ Templates atualizados com sucesso!');
 }
 
 /// Função para remover uma pasta existente, se ela existir.
 Future<void> _removeExistingFolder(String folderPath) async {
   final folder = Directory(folderPath);
   if (await folder.exists()) {
-    print('🗑️ Removendo pasta existente...');
     await folder.delete(recursive: true);
-    print('✅ Pasta antiga removida!');
+    print('🗑️  Pasta existente removida!');
   }
 }
 
@@ -53,7 +52,6 @@ Future<void> _downloadFolderContents(String owner, String repoName,
     final data = jsonDecode(responseBody);
 
     if (data is List) {
-      print('✅ Pasta $githubFolderPath encontrada no GitHub!');
       await _downloadFilesFromData(data, localFolderPath);
     } else {
       print(
@@ -91,10 +89,11 @@ Future<void> _downloadFile(
           (List<int> previous, List<int> element) => previous..addAll(element));
       final fileOut = File(filePath);
 
-      await fileOut.create(recursive: true); // Cria as pastas se não existirem
+      // Cria as pastas se não existirem
+      await fileOut.create(recursive: true);
       await fileOut.writeAsBytes(fileBytes);
 
-      print('✅ Arquivo $fileName baixado com sucesso!');
+      // print('⬇️  Arquivo $fileName baixado com sucesso!');
     } else {
       print(
           '❌ Erro ao baixar o arquivo $fileName. Status: ${fileResponse.statusCode}');
