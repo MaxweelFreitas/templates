@@ -12,6 +12,9 @@ assignees: ''
 #### 📄 **Título**
 Descreva o bug de forma breve e clara.
 
+#### 🔗 **Extern Link**
+Insira o link do bug na plataforma de gerenciamento de bugs
+
 #### 🖥️ **Ambiente**
 - **Sistema Operacional:** (ex.: Windows 10, macOS Monterey, Ubuntu 20.04)
 - **Navegador:** (ex.: Chrome v114.0.5735.90)
