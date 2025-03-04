@@ -1,7 +1,7 @@
 ---
 name: ⚔️ Epic
 about: Tire dúvidas ou peça esclarecimentos sobre o projeto.
-title: "[EPIC] "
+title: "⚔️ [EPICO] - "
 labels: epic
 assignees: ''
 ---

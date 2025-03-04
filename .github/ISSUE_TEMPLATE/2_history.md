@@ -1,7 +1,7 @@
 ---
 name: 📜 Story
 about: Tire dúvidas ou peça esclarecimentos sobre o projeto.
-title: "[Story] "
+title: "📜 [Story] - "
 labels: story
 assignees: ''
 ---

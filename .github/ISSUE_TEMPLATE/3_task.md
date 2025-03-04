@@ -1,7 +1,7 @@
 ---
 name: ⚒️ Task
 about: Tire dúvidas ou peça esclarecimentos sobre o projeto.
-title: "[Task] "
+title: "⚒️ [MICROTASK] - "
 labels: task
 assignees: ''
 ---
